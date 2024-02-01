@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64578162-65c3-498b-aa33-1b36de12b17e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/configurations/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/configurations/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/configurations/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/dtos/OrderRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/events/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/events/OrderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/listeners/KafkaListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/dev/harsh/architect/orderservice/services/SelfOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/resources/static/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/configurations/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/configurations/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/configurations/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/events/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/events/PaymentEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/listeners/KafkaListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/models/UserBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/models/UserTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/repositories/UserBalanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/repositories/UserTransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/services/OrderProcessingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/dev/harsh/architect/paymentservice/services/SelfOrderProcessingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/configs/CustomOrderDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/configs/CustomOrderSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/configs/CustomPaymentDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/configs/CustomPaymentSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/dtos/OrderResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/dtos/PaymentResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-dtos/src/main/java/dev/harsh/architect/commondtos/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/harsh/architect/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2aOMR7XUtredPbBGfGyGhdnSObE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.static.kafka: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.static.zookeeper: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Spring Boot/Saga Pattern&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.harsh.architect.orderservice.repositories" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Spring Boot\Saga Pattern\PaymentService\src\main\java\dev\harsh\architect\paymentservice" />
+      <recent name="C:\Projects\Spring Boot\Saga Pattern\common-dtos\src\main\java\dev\harsh\architect\commondtos" />
+      <recent name="C:\Projects\Spring Boot\Saga Pattern\PaymentService\src\main\java\dev\harsh\architect\paymentservice\configurations" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PaymentServiceApplication">
+    <configuration name="CommonDtosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="common-dtos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.harsh.architect.commondtos.CommonDtosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="OrderService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.harsh.architect.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.harsh.architect.paymentservice.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="static: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="OrderService/src/main/resources/static/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="static.kafka: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="kafka" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="OrderService/src/main/resources/static/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="static.zookeeper: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="zookeeper" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="OrderService/src/main/resources/static/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.static.kafka: Compose Deployment" />
+        <item itemvalue="Docker.static.zookeeper: Compose Deployment" />
+        <item itemvalue="Docker.static: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64578162-65c3-498b-aa33-1b36de12b17e" name="Changes" comment="" />
+      <created>1704185165351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704185165351</updated>
+      <workItem from="1704185166415" duration="16607000" />
+      <workItem from="1705170153447" duration="593000" />
+      <workItem from="1705756123737" duration="71000" />
+      <workItem from="1706804236354" duration="230000" />
+      <workItem from="1706804488159" duration="54000" />
+      <workItem from="1706804562190" duration="288000" />
+      <workItem from="1706804873555" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
